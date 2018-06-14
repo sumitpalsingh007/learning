@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">root123</property>
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+        <property name="max_fetch_depth">5</property>
+		<mapping class="Orders"></mapping>
+		<mapping class="Persons"/>
+		<mapping class="Department"/>
+		<mapping class="entity.Customer"/>
+		<mapping class="entity.Order"/>
+        <mapping class="entity.Invoice"/>
+        
+        <mapping class="entity.Product"/>
+	</session-factory>
+	<!-- <session-factory>
+		 
+	</session-factory> -->
+</hibernate-configuration>

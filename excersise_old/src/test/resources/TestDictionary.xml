@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Dictionary>
+
+<Entry>
+	<word>word1</word>
+	<meaning>meaning of word1 is definitely	meaningful and good	</meaning>
+	<dateOfEntry>20130126</dateOfEntry>
+</Entry>
+<Entry>
+	<word>word2</word>
+	<meaning>meaning of word2 is great</meaning>
+	<dateOfEntry>20130127</dateOfEntry>
+</Entry>
+</Dictionary>

@@ -1,0 +1,8 @@
+org\example\newxmlschema\Entry.class
+org\example\addRemove\MyFLRFileReader.class
+org\example\launch\LaunchDictionary.class
+org\example\addRemove\MyXMLFileReader.class
+org\example\addRemove\MyFileReader.class
+org\example\newxmlschema\package-info.class
+org\example\newxmlschema\Dictionary.class
+org\example\newxmlschema\ObjectFactory.class

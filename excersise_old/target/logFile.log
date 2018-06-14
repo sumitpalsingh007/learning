@@ -1,0 +1,5 @@
+2015-04-28_23:31:24.037 [main] INFO  com.launch.LaunchDictionary - launching the application
+2015-04-28_23:31:24.040 [main] DEBUG com.launch.LaunchDictionary - asking the file name
+2015-04-28_23:31:28.067 [main] DEBUG com.launch.LaunchDictionary - fileName is adad
+2015-04-28_23:31:34.110 [main] DEBUG com.launch.LaunchDictionary - extension is xml
+2015-04-28_23:31:34.111 [main] INFO  com.launch.LaunchDictionary - fileName is adad.xml
