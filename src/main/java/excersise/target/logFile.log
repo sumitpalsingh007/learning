@@ -1,0 +1,7 @@
+2015-04-29_23:42:06.638 [main] INFO  o.example.addRemove.MyXMLFileReader - word added--a0.5785560121847249 happy                              20154229
+2015-04-29_23:42:06.644 [main] INFO  o.example.addRemove.MyXMLFileReader - searching for 12345678901234567890
+2015-04-29_23:42:06.649 [main] DEBUG o.example.addRemove.MyXMLFileReader - reading file src/test/resources/TestDictionary.xml
+2015-04-29_23:42:06.782 [main] INFO  o.example.addRemove.MyXMLFileReader - looking for a0.4050014503370526
+2015-04-29_23:42:06.782 [main] DEBUG o.example.addRemove.MyXMLFileReader - reading file src/test/resources/TestDictionary.xml
+2015-04-29_23:42:06.791 [main] DEBUG o.example.addRemove.MyXMLFileReader - reading file src/test/resources/TestDictionary.xml
+2015-04-29_23:42:06.801 [main] INFO  o.example.addRemove.MyXMLFileReader - looking for sumit

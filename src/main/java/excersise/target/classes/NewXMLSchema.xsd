@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/NewXMLSchema" xmlns:tns="http://www.example.org/NewXMLSchema" elementFormDefault="qualified">
+
+    <element name="Dictionary" type="tns:Dictionary"></element>
+    
+    <complexType name="Dictionary">
+    	<sequence>
+    		<element name="Entry" type="tns:Entry" maxOccurs="unbounded"
+    			minOccurs="1">
+    		</element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="Entry">
+    	<attribute name="word" type="string"></attribute>
+    	<attribute name="meaning" type="string"></attribute>
+    	<attribute name="dateOfEnrty" type="string"></attribute>
+    </complexType>
+</schema>

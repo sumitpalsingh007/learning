@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/dictionary"
+	xmlns:tns="http://www.example.org/dictionary" elementFormDefault="qualified">
+
+
+
+	<xs:element name="dictionary">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="word" type="xs:string" />
+				<xs:element name="meaning" type="xs:string" />
+				<xs:element name="dateOfEntry" type="xs:string" />
+
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</schema>

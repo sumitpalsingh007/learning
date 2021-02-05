@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Dictionary xmlns:ns2="http://www.example.org/NewXMLSchema">
+    <Entry word="word1" meaning="meaning of word1 is definitely meaningful and good" dateOfEnrty="20130126"/>
+    <Entry word="word2" meaning="meaning of word2 is great" dateOfEnrty="20130127"/>
+    <Entry word="sumit" meaning="happy" dateOfEnrty="20130127"/>
+    <Entry word="a0.6777835588391973" meaning="happy" dateOfEnrty="20150629"/>
+    <Entry word="pal" meaning="happy" dateOfEnrty="20150529"/>
+    <Entry word="apur" meaning="chotu" dateOfEnrty="20151329"/>
+</Dictionary>

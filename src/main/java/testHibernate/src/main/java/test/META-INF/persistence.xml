@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="1.0">
+
+    <persistence-unit name="testjpa" transaction-type="RESOURCE_LOCAL">
+        <provider>
+            org.apache.openjpa.persistence.PersistenceProviderImpl
+        </provider>
+        <class>entity.Customer</class>
+        <class>entity.Invoice</class>
+        <class>entity.Order</class>
+        <class>entity.Product</class> 
+ 
+        <properties>
+   		 	<property name="openjpa.ConnectionURL" 
+                value="jdbc:mysql://localhost:3306"/>
+            <!-- <property name="openjpa.ConnectionDriverName" 
+                value="com.mysql.jdbc.Driver"/> -->
+            <property name="openjpa.ConnectionUserName"  value="root"/>
+            <property name="openjpa.ConnectionPassword" value="root123"/>
+            <property name="openjpa.Log" value="SQL=TRACE"/>
+            
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+        </properties>
+    </persistence-unit>
+    
+</persistence>

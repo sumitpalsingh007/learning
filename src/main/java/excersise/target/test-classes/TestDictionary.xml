@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Dictionary xmlns:ns2="http://www.example.org/NewXMLSchema">
+    <Entry word="word1" meaning="meaning of word1 is definitely meaningful and good" dateOfEnrty="20130126"/>
+    <Entry word="word2" meaning="meaning of word2 is great" dateOfEnrty="20130127"/>
+    <Entry word="sumit" meaning="happy" dateOfEnrty="20130127"/>
+    <Entry word="a0.6777835588391973" meaning="happy" dateOfEnrty="20150629"/>
+    <Entry word="pal" meaning="happy" dateOfEnrty="20150529"/>
+    <Entry word="apur" meaning="chotu" dateOfEnrty="20151329"/>
+    <Entry word="a0.6299888916920322" meaning="happy" dateOfEnrty="20150929"/>
+    <Entry word="a0.42026258870247823" meaning="happy" dateOfEnrty="20151029"/>
+    <Entry word="a0.8567135257478373" meaning="happy" dateOfEnrty="20151029"/>
+    <Entry word="a0.7704268583925619" meaning="happy" dateOfEnrty="20151029"/>
+    <Entry word="a0.4790697409970963" meaning="happy" dateOfEnrty="20151229"/>
+    <Entry word="a0.9384521553156838" meaning="happy" dateOfEnrty="20151229"/>
+    <Entry word="a0.6135608123576409" meaning="happy" dateOfEnrty="20151429"/>
+    <Entry word="a0.8125391621916457" meaning="happy" dateOfEnrty="20151429"/>
+    <Entry word="a0.5981999967097876" meaning="happy" dateOfEnrty="20151529"/>
+    <Entry word="a0.4881852101502073" meaning="happy" dateOfEnrty="20151629"/>
+    <Entry word="a0.39817917262001346" meaning="happy" dateOfEnrty="20151629"/>
+    <Entry word="a0.1391430880860285" meaning="happy" dateOfEnrty="20151829"/>
+    <Entry word="a0.3926237977433422" meaning="happy" dateOfEnrty="20151829"/>
+    <Entry word="a0.6537780312320217" meaning="happy" dateOfEnrty="20152429"/>
+    <Entry word="a0.6194868080547272" meaning="happy" dateOfEnrty="20153129"/>
+    <Entry word="a0.27475460311906275" meaning="happy" dateOfEnrty="20154029"/>
+</Dictionary>

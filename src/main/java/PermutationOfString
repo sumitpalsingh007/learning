@@ -1,0 +1,30 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class PermutationOfString {
+
+    public static void main(String[] args) {
+        String input  = "ABC";
+        final Set results  = new HashSet();
+        for(int i=0; i<input.length() -1; i++) {
+            //A
+            for(int j= 0; j < input.length() -1; j++) {
+                //A
+                if (j != i) {
+                    results.add(swap(i, j, input));
+                }
+            }
+        }
+        System.out.println(results);
+    }
+
+    public static String swap(int i, int j, String s) {
+        String ch = s.substring(i, i+1);
+        String ch1 = s.substring(j,j+1);
+        return s.substring(0, i )
+                + ch1
+                + s.substring(i+1, j)
+                + ch
+                + s.substring(j+1);
+    }
+}
